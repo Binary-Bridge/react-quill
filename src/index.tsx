@@ -382,7 +382,7 @@ class ReactQuill extends React.Component<ReactQuillProps, ReactQuillState> {
     this.value = value;
     const sel = this.getEditorSelection();
     if (typeof value === 'string') {
-      editor.setContents(editor.clipboard.convert(value));
+      editor.clipboard.dangerouslyPasteHTML(value)
     } else {
       editor.setContents(value);
     }

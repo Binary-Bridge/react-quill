@@ -1,12 +1,12 @@
 {
-  "name": "react-quill",
-  "version": "2.0.0-beta.2",
+  "name": "react-quill-bb",
+  "version": "2.0.0-beta.3.5",
   "description": "The Quill rich-text editor as a React component.",
-  "author": "zenoamaro <zenoamaro@gmail.com>",
+  "author": "Binary Bridge Inc. <dev@0br1.com>",
   "license": "MIT",
-  "homepage": "https://github.com/zenoamaro/react-quill",
-  "bugs": "https://github.com/zenoamaro/react-quill/issues",
-  "repository": "https://github.com/zenoamaro/react-quill.git",
+  "homepage": "https://github.com/Binary-Bridge/react-quill",
+  "bugs": "https://github.com/Binary-Bridge/react-quill/issues",
+  "repository": "https://github.com/Binary-Bridge/react-quill.git",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
